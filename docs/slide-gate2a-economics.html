@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gate 2a · Nhóm Economics · Trợ lý hoàn phí LogiX-VN</title>
+<style>
+  :root {
+    --paper:#f6f1e7; --ink:#1c1916; --muted:#5e564c; --card:#fffdf8; --line:#e4d9c8;
+    --clay:#b8431f; --clay-soft:#f8ebe4; --green:#1c6b45; --green-soft:#e6f3ec;
+    --gold:#8a5a12; --gold-soft:#f8f0dc;
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; background:var(--paper); color:var(--ink); }
+  body { font-family:"Segoe UI","Be Vietnam Pro",sans-serif; padding:28px 40px; }
+  .slide { max-width:1280px; margin:0 auto; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--clay); }
+  h1 { font-family:"Segoe UI","Be Vietnam Pro",sans-serif; font-weight:700; font-size:38px; line-height:1.1; margin:8px 0 6px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:18px; margin:0 0 20px; }
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 18px; }
+  .card h2 { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 8px; }
+  .big { font-family:"Segoe UI",sans-serif; font-weight:700; font-size:40px; line-height:1; letter-spacing:-.03em; }
+  .big small { display:block; font-family:"Segoe UI",sans-serif; font-size:14px; color:var(--muted); letter-spacing:0; margin-top:6px; }
+  .tag { display:inline-block; border-radius:999px; padding:3px 10px; font-size:12px; font-weight:700; margin-top:10px; }
+  .ok { background:var(--green-soft); color:var(--green); }
+  .bad { background:var(--clay-soft); color:var(--clay); }
+  .warn { background:var(--gold-soft); color:var(--gold); }
+  .two { display:grid; grid-template-columns:1.1fr 1fr; gap:14px; margin-top:14px; }
+  ul { margin:6px 0 0; padding-left:18px; font-size:15px; line-height:1.5; }
+  li { margin:2px 0; }
+  .decision { margin-top:14px; border-radius:16px; background:var(--ink); color:#fff; padding:16px 22px; display:flex; gap:18px; align-items:center; }
+  .decision b { font-weight:700; font-size:26px; white-space:nowrap; }
+  .decision span { font-size:15px; line-height:1.45; color:#e9e2d4; }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  td,th { text-align:left; padding:5px 6px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+  .foot { margin-top:10px; font-size:12px; color:var(--muted); }
+  @media (max-width:1000px){ .grid{grid-template-columns:repeat(2,1fr);} .two{grid-template-columns:1fr;} .decision{flex-direction:column;align-items:flex-start;} body{padding:16px;} h1{font-size:28px;} }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="kicker">Gate 2a · Nhóm Economics · Lab 13</div>
+  <h1>Go có điều kiện: pilot trợ lý hoàn phí chỉ cho nội địa và hàng nặng</h1>
+  <p class="sub">LogiX-VN · 1.200 yêu cầu mẫu · mọi số có nhãn [simulated] là dữ liệu giả lập · Gate 2a chỉ duyệt kế hoạch pilot</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>1 · Đáng chạy không</h2>
+      <div class="big">4.472 đ<small>mỗi việc thành công [simulated], gấp 16,3× hoá đơn token</small></div>
+      <span class="tag ok">0,49× nhân viên tự làm, cả hệ thống</span>
+    </div>
+    <div class="card">
+      <h2>2 · Con số bất lợi</h2>
+      <div class="big">0,98×<small>nếu xem lại 100% [simulated]; 1,03× với phút làm lại thực 15,3</small></div>
+      <span class="tag bad">xem lại 100% = không tiết kiệm</span>
+    </div>
+    <div class="card">
+      <h2>3 · Phạm vi thu hẹp</h2>
+      <div class="big">1,88×<small>quốc tế: thành công 27,3%, chạy lại không giúp (30% → 11% → 2%)</small></div>
+      <span class="tag warn">loại quoc_te, doi_tac</span>
+    </div>
+    <div class="card">
+      <h2>4 · Pilot ra quyết định</h2>
+      <div class="big">20 + 20<small>nhân viên, bốc thăm ngẫu nhiên, n = 859 mỗi nhóm</small></div>
+      <span class="tag warn">chỉ thấy chênh 6 điểm, power 0,64 nếu thật là 5</span>
+    </div>
+  </div>
+
+  <div class="two">
+    <div class="card">
+      <h2>Chi phí theo loại [simulated] · nhạy nhất</h2>
+      <table>
+        <tr><th>Loại</th><th>Thành công</th><th>Chi phí/việc</th><th>vs 12.000 đ</th></tr>
+        <tr><td>noi_dia</td><td>95,0%</td><td>2.696 đ</td><td>0,22×</td></tr>
+        <tr><td>hang_nang</td><td>74,1%</td><td>8.221 đ</td><td>0,69×</td></tr>
+        <tr><td>doi_tac</td><td>54,4%</td><td>10.215 đ</td><td>0,85×</td></tr>
+        <tr><td>quoc_te</td><td>27,3%</td><td>22.515 đ</td><td>1,88×</td></tr>
+      </table>
+      <ul>
+        <li>Ba yếu tố nhạy nhất: <b>làm lại</b> ±51,8% · <b>xem lại</b> ±40,7% · <b>lương</b> +23,1%. Giá token chỉ +5,6%.</li>
+        <li>Giới hạn 2 lần chạy rẻ nhất cho cả công ty (6,90 triệu đ), dù 1 lần có chi phí/việc thấp nhất.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Luật dừng đã viết trước</h2>
+      <ul>
+        <li><b>An toàn, mọi bước:</b> mở lại 7 ngày &gt; 6%, hoàn trùng, hoặc báo "đã hoàn" mà sổ cái không ghi → Giám đốc vận hành tắt trong 30 phút. Hiện tại: mở lại 4,25%.</li>
+        <li><b>Chênh ≥ 2 điểm so với đối chứng:</b> chỉ từ bước 10 người, vì với 4 người lệch ngẫu nhiên 56/1.000 lần [simulated].</li>
+        <li><b>Chi phí &gt; 8.000 đ/việc</b> 2 tuần liền (chưa cộng 40 triệu cố định) → thu hẹp về noi_dia, giới hạn 2 lần.</li>
+        <li><b>Bỏ qua gợi ý &gt; 40%</b> trong 1 tuần (hiện 27,1%) → phỏng vấn 5 nhân viên.</li>
+        <li>Bước 20 người cần <b>8 ngày</b> để gom đủ đơn, không phải 7.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="decision">
+    <b>Go có điều kiện</b>
+    <span>
+      1) Sửa khoá chống trùng và đối soát sổ cái (ca 7, 20) trước pilot · Kỹ sư trưởng agent · 15/12/2026.
+      2) Giám đốc vận hành ký chấp nhận mức chênh 6 điểm · 20/12/2026.
+      3) Bật đủ event có trace_id, thay phút simulated bằng phút đo thật sau tuần 1 · PM trợ lý hoàn phí.
+      4) Kế hoạch giảm xem lại theo bậc · Trưởng nhóm CSKH · cuối bước 25%.
+    </span>
+  </div>
+  <div class="foot">Chỉ số chính trong đợt chạy thử là 82,83%; đợt chạy thử không có nhóm đối chứng nên không kết luận trợ lý đã nâng chỉ số. Nhãn lỗi 20/20 nhưng chưa độc lập thuần túy. Số liệu: src/lab13.py, report/team/.</div>
+</div>
+</body>
+</html>
