@@ -5,7 +5,7 @@
 - Tên nhóm: Economics
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-Economics-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/HoangHongNgo/K5-L3B-DAY13-Economics-LaunchEconomics · main · [điền commit chốt]
+- URL repo, nhánh nộp, commit chốt: https://github.com/HoangHongNgo/K5-L3B-DAY13-Economics-LaunchEconomics · main · commit chốt hiện tại 69e2c74 (cập nhật nếu còn thay đổi)
 
 ## Thành viên
 
@@ -63,7 +63,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- `report/team/2A202604093_NgoHongHoang.md`; commit: [điền sau khi commit]
+- `report/team/2A202604093_NgoHongHoang.md`; commit: 6fa2b3d, 0ddd709, 69e2c74 (tài khoản HoangHongNgo)
 
 ## HoangMinh-2A202604103
 
@@ -87,7 +87,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- `report/team/2A202604103_HoangMinh.md`; commit: [điền sau khi commit]
+- `report/team/2A202604103_HoangMinh.md`; commit: 2bf2e89 (nhánh HoangMinh)
 
 ## NguyenVietHoang-2A202604104
 
@@ -101,5 +101,5 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- `report/team/2A202604104_NguyenVietHoang.md`; commit: [điền sau khi commit]
+- `report/team/2A202604104_NguyenVietHoang.md`; commit: 2235e50 (viethoang126)
 
