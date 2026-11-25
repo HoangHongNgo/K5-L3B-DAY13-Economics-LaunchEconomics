@@ -62,7 +62,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - Fork repo, điền tên nhóm, đẩy các commit hồ sơ lên `main`.
 - Kiểm tay sáu con số then chốt (4.472 đ, 16,3×, 5.865 đ, 4.599 đ, n = 1.251, 11.743 đ), lệch dưới 0,1% so với `lab13.py`.
-- Rà `bang_chi_phi.md`, `pilot_plan.yaml`; kiểm tra YAML hợp lệ, không dấu `?`, không từ "production".
+- Rà `bang_chi_phi.md`, `pilot_plan.yaml`; kiểm tra YAML hợp lệ, không dấu `?`, không dùng từ bị cấm theo quy tắc 5 của lab.
 
 ### Bằng chứng
 

@@ -17,7 +17,7 @@ Tính tay một con số để đối chiếu (ví dụ 4.472 đ, 16,3×, n = 85
 - Nhận repo đề bài, fork về tài khoản HoangHongNgo, điền tên nhóm Economics và đẩy các commit hồ sơ lên `main`.
 - Người kiểm số: tính tay, không qua `lab13.py`, các con số then chốt để đối chiếu với kết quả của code (bảng bên dưới).
 - Điền và rà `bang_chi_phi.md` (A1–B4) và `pilot_plan.yaml` (D1, D2, luật dừng); kiểm tra `pilot_plan.yaml` đọc được bằng `yaml.safe_load` và không còn dấu `?` ngoài dòng chú thích.
-- Kiểm tra cả bộ hồ sơ không chứa từ "production" và mọi số tính từ cột `_simulated` có nhãn simulated.
+- Kiểm tra cả bộ hồ sơ không dùng từ bị cấm theo quy tắc 5 của lab và mọi số tính từ cột `_simulated` có nhãn simulated.
 
 | Con số | Tính tay | Kết quả `lab13.py` |
 | --- | --- | --- |
