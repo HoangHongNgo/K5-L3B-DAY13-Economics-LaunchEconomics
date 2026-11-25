@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Minh Triết | 2A202603995 | [điền] | [điền] | Người viết code |
-|   2 | Ngô Hồng Hoàng | 2A202604093 | [điền] | [điền] | Người kiểm số |
+|   2 | Ngô Hồng Hoàng | 2A202604093 | [điền] | HoangHongNgo | Người kiểm số |
 |   3 | Hoàng Minh | 2A202604103 | [điền] | [điền] | Người gắn nhãn 1 |
 |   4 | Nguyễn Việt Hoàng | 2A202604104 | [điền] | [điền] | Người gắn nhãn 2 kiêm giữ hồ sơ |
 
@@ -59,7 +59,9 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Đóng góp cụ thể
 
-- [Thành viên tự điền]
+- Fork repo, điền tên nhóm, đẩy các commit hồ sơ lên `main`.
+- Kiểm tay sáu con số then chốt (4.472 đ, 16,3×, 5.865 đ, 4.599 đ, n = 1.251, 11.743 đ), lệch dưới 0,1% so với `lab13.py`.
+- Rà `bang_chi_phi.md`, `pilot_plan.yaml`; kiểm tra YAML hợp lệ, không dấu `?`, không từ "production".
 
 ### Bằng chứng
 
