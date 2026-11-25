@@ -20,6 +20,7 @@
 #   Nếu tác động thật chỉ 5 điểm thì power còn khoảng 0,64. Giám đốc vận hành phải ký chấp nhận trước khi bắt đầu.
 #
 # Tỉ lệ mo_lai_trong_7_ngay hiện tại: 4,25% (51/1.200); trong phạm vi noi_dia + hang_nang là 3,97%.
+#   Luật lệch 2 điểm chỉ áp từ bước 10 nhân viên; bước 4 nhân viên chỉ dùng luật an toàn tuyệt đối (slide D1).
 #   Ngưỡng tuyệt đối 3% sẽ dừng pilot ngay tuần đầu, nên dùng so với đối chứng (chênh +2 điểm) kèm trần tuyệt đối 6%.
 
 pilot:
@@ -29,7 +30,8 @@ pilot:
     unit: "staff"
     control_share: 0.5
     randomized: true
-  rollout: [0.10, 0.25, 0.50]     # mỗi bước một tuần: 4 -> 10 -> 20 nhân viên; chỉ đo chỉ số chính từ bước 0.50
+  rollout: [0.10, 0.25, 0.50]     # 4 -> 10 -> 20 nhân viên; chỉ đo chỉ số chính từ bước 0.50
+  measurement_window: "Bước 20 nhân viên cần 8 ngày để gom đủ 299 đơn mỗi người (1.500 đơn/ngày cho 40 người, khoảng 37 đơn mỗi người mỗi ngày; 7 ngày chỉ được khoảng 263 đơn). Bảo hành không mở lại 7 ngày của từng đơn vẫn giữ, hai khoảng này không thay nhau."
   primary_metric:
     name: dong_trong_24h_khong_mo_lai_7_ngay
     baseline: 0.70
@@ -44,8 +46,9 @@ pilot:
     spillover_risk: "Có nguy cơ chia sẻ câu trả lời trong depot; giảm bằng quyền truy cập theo tài khoản và log lượt mở trợ lý theo staff_id"
     predeclared: "Chỉ số chính, ngưỡng, luật dừng, seed bốc thăm và ngày quyết định chốt bằng file này trước ngày bắt đầu"
   stop_rules:
-    - "NẾU mở lại 7 ngày của nhóm trợ lý cao hơn đối chứng từ 2 điểm hoặc vượt 6% tuyệt đối, hoặc có từ 1 ca hoàn trùng TRONG 3 ngày liên tiếp THÌ Giám đốc vận hành tắt trợ lý trong 30 phút KHÔNG THÌ không được sang bước rollout tiếp"
-    - "NẾU chi phí mỗi việc thành công vượt 8.000 đ (simulated) TRONG 2 tuần liên tiếp THÌ PM trợ lý hoàn phí thu hẹp về noi_dia và giới hạn 2 lần chạy KHÔNG THÌ không được mở hang_nang"
+    - "NẾU mở lại 7 ngày vượt 6% tuyệt đối, hoặc có từ 1 ca hoàn trùng, hoặc có từ 1 ca báo khách đã hoàn mà sổ cái không ghi, ở bất kỳ bước nào kể cả bước 4 nhân viên, TRONG 24 giờ kể từ khi phát hiện THÌ Giám đốc vận hành tắt trợ lý trong 30 phút KHÔNG THÌ không được sang bước rollout tiếp"
+    - "NẾU mở lại 7 ngày của nhóm trợ lý cao hơn đối chứng từ 2 điểm, chỉ xét từ bước 10 nhân viên (với 4 nhân viên lệch 2 điểm xảy ra 56/1.000 lần chỉ do ngẫu nhiên, simulated), TRONG 2 tuần liên tiếp THÌ Giám đốc vận hành tắt trợ lý trong 30 phút KHÔNG THÌ không được sang bước rollout tiếp"
+    - "NẾU chi phí mỗi việc thành công (chỉ tiền máy và giờ nhân viên, chưa cộng 40 triệu cố định) vượt 8.000 đ (simulated) TRONG 2 tuần liên tiếp THÌ PM trợ lý hoàn phí thu hẹp về noi_dia và giới hạn 2 lần chạy KHÔNG THÌ không được mở hang_nang"
     - "NẾU tỉ lệ bỏ qua gợi ý (sua + bo) vượt 40% TRONG 1 tuần THÌ Trưởng nhóm CSKH phỏng vấn 5 nhân viên trong 3 ngày KHÔNG THÌ không được chuyển bước rollout"
   interim_looks: "chỉ kiểm tra chỉ số an toàn"
   rollback: "Giám đốc vận hành bấm cờ tắt, hiệu lực trong 30 phút; khách được phục vụ bằng luồng nhân viên tự làm"
