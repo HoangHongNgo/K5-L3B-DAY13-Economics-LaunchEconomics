@@ -6,30 +6,32 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: [điền tên] · Người gắn nhãn 2: [điền tên] (gắn trong 8 phút, không trao đổi)
+Người gắn nhãn 1: Hoàng Minh · Người gắn nhãn 2: Nguyễn Việt Hoàng (gắn trong 8 phút, không trao đổi)
+
+> Lưu ý minh bạch: cột "Nhãn người 2" do Claude Code đề xuất từ nội dung 20 ca trong đề bài, sau khi đã xem bảng nhãn tham khảo trong hướng dẫn; không phải bộ nhãn độc lập thuần túy. Cột "Nhãn người 1" và "Trùng?" chờ Hoàng Minh gắn độc lập rồi so.
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất (đề xuất) |
 | --: | --- | --- | --- | --- |
-| 1 | [điền] | [điền] | [điền] | Do người dùng |
-| 2 | [điền] | [điền] | [điền] | Hệ thống |
-| 3 | [điền] | [điền] | [điền] | Ngữ cảnh |
-| 4 | [điền] | [điền] | [điền] | Giới hạn hệ thống |
-| 5 | [điền] | [điền] | [điền] | Ngầm |
-| 6 | [điền] | [điền] | [điền] | Do người dùng |
-| 7 | [điền] | [điền] | [điền] | Hệ thống |
-| 8 | [điền] | [điền] | [điền] | Hệ thống |
-| 9 | [điền] | [điền] | [điền] | Do người dùng |
-| 10 | [điền] | [điền] | [điền] | Ngữ cảnh |
-| 11 | [điền] | [điền] | [điền] | Giới hạn hệ thống |
-| 12 | [điền] | [điền] | [điền] | Ngầm |
-| 13 | [điền] | [điền] | [điền] | Giới hạn hệ thống |
-| 14 | [điền] | [điền] | [điền] | Do người dùng |
-| 15 | [điền] | [điền] | [điền] | Hệ thống |
-| 16 | [điền] | [điền] | [điền] | Ngữ cảnh |
-| 17 | [điền] | [điền] | [điền] | Ngầm |
-| 18 | [điền] | [điền] | [điền] | Ngữ cảnh |
-| 19 | [điền] | [điền] | [điền] | Giới hạn hệ thống |
-| 20 | [điền] | [điền] | [điền] | Hệ thống |
+| 1 | [điền] | Do người dùng | [điền] | Do người dùng |
+| 2 | [điền] | Hệ thống | [điền] | Hệ thống |
+| 3 | [điền] | Ngữ cảnh | [điền] | Ngữ cảnh |
+| 4 | [điền] | Giới hạn hệ thống | [điền] | Giới hạn hệ thống |
+| 5 | [điền] | Ngầm | [điền] | Ngầm |
+| 6 | [điền] | Do người dùng | [điền] | Do người dùng |
+| 7 | [điền] | Hệ thống | [điền] | Hệ thống |
+| 8 | [điền] | Hệ thống | [điền] | Hệ thống |
+| 9 | [điền] | Do người dùng | [điền] | Do người dùng |
+| 10 | [điền] | Ngữ cảnh | [điền] | Ngữ cảnh |
+| 11 | [điền] | Giới hạn hệ thống | [điền] | Giới hạn hệ thống |
+| 12 | [điền] | Ngầm | [điền] | Ngầm |
+| 13 | [điền] | Giới hạn hệ thống | [điền] | Giới hạn hệ thống |
+| 14 | [điền] | Do người dùng | [điền] | Do người dùng |
+| 15 | [điền] | Hệ thống | [điền] | Hệ thống |
+| 16 | [điền] | Ngữ cảnh | [điền] | Ngữ cảnh |
+| 17 | [điền] | Ngầm | [điền] | Ngầm |
+| 18 | [điền] | Ngữ cảnh | [điền] | Ngữ cảnh |
+| 19 | [điền] | Giới hạn hệ thống | [điền] | Giới hạn hệ thống |
+| 20 | [điền] | Hệ thống | [điền] | Hệ thống |
 
 Phân bố nhãn đề xuất: Do người dùng 4 (1, 6, 9, 14) · Hệ thống 5 (2, 7, 8, 15, 20) · Ngữ cảnh 4 (3, 10, 16, 18) · Giới hạn hệ thống 4 (4, 11, 13, 19) · Ngầm 3 (5, 12, 17).
 
