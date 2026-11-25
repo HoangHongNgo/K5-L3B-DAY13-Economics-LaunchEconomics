@@ -98,5 +98,5 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- `report/team/2A202604104_NguyenVietHoang.md`; commit: 2235e50 (viethoang126)
+- `report/team/2A202604104_NguyenVietHoang.md`; commit: 2235e50 (nhãn người 2 trong `bang_loi.md`), 9567352 (báo cáo cá nhân) (viethoang126)
 
