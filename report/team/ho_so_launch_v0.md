@@ -10,7 +10,7 @@ Nhóm: Economics · Lớp: L3B
 | 2 · Ba yếu tố nhạy nhất | 1. số ca làm lại ±51,8% · 2. tỉ lệ xem lại ±40,7% · 3. lương +23,1%; giá token chỉ +5,6% [simulated] | Giả lập | PM trợ lý hoàn phí |
 | 3 · So với nhân viên tự làm | Cả hệ thống 5.865 đ/yêu cầu = 0,49× của 12.000 đ [simulated]; phạm vi noi_dia + hang_nang cộng cố định 4.599 đ = 0,38×; quoc_te 1,88× nên loại; xem lại 100% = 0,98× (1,03× với phút làm lại thực) | Giả lập | Giám đốc tài chính |
 | 4 · Chỉ số chính, dùng, an toàn | Chính 82,83% · bỏ qua gợi ý 27,12% (48/177) · mở lại 7 ngày 4,25%; đủ 10 event có trace_id | Xong, có bằng chứng | Trưởng nhóm CSKH |
-| 5 · Bảng lỗi và cách khắc phục | 20 ca, 5 loại; 5 ca khắc phục, mỗi dòng có ngưỡng đo được; đồng thuận nhãn: [điền]/20 | Chưa (chờ hai người gắn nhãn độc lập) | Kỹ sư trưởng agent |
+| 5 · Bảng lỗi và cách khắc phục | 20 ca, 5 loại; 5 ca khắc phục, mỗi dòng có ngưỡng đo được; đồng thuận nhãn 20/20 = 100%, nhưng hai bộ nhãn có tham khảo AI nên chưa độc lập thuần túy (xem `bang_loi.md`) | Chưa (cần gắn lại độc lập) | Kỹ sư trưởng agent |
 | 6 · Pilot plan | Chia theo 20 + 20 nhân viên, n = 859 mỗi nhóm, DE 6,96, chênh phát hiện 6 điểm (power 0,64 nếu thật là 5 điểm); 3 luật dừng, quyết định 2027-01-05 | Xong, có bằng chứng | Giám đốc vận hành |
 | 7 · Rủi ro kinh tế | Làm lại gấp đôi +51,8% (6.787 đ); xem lại 100% = 0,98×; cố định +1.185 đến +2.370 đ/việc [simulated] | Giả lập | PM trợ lý hoàn phí |
 

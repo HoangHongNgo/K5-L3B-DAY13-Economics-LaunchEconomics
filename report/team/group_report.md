@@ -38,7 +38,7 @@ Chi tiết nằm trong `TEAM.md`.
 
 - Chi phí xem lại và làm lại là số giả lập; cần thay bằng phút đo thật sau tuần 1 của pilot.
 - Đợt chạy thử không có nhóm đối chứng nên không kết luận trợ lý đã nâng chỉ số chính.
-- Nhãn lỗi cần hai thành viên gắn độc lập để có tỉ lệ đồng thuận thật.
+- Đồng thuận nhãn lỗi 20/20 nhưng cả hai bộ nhãn có tham khảo AI/bảng nhãn mẫu, nên chưa độc lập thuần túy; cần gắn lại độc lập để có tỉ lệ đồng thuận thật.
 
 ## 8. Tài liệu tham khảo
 
