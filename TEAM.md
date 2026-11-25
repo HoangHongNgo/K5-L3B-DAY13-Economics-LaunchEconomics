@@ -94,7 +94,9 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Đóng góp cụ thể
 
-- [Thành viên tự điền]
+- Gắn nhãn 20 ca lỗi theo năm loại PAIR (nguyên nhân gốc), ghi vào cột "Nhãn người 2" của `bang_loi.md`; ghi rõ nhãn có Claude Code hỗ trợ nên chưa hoàn toàn độc lập, tỉ lệ đồng thuận chờ nhãn của Người gắn nhãn 1.
+- Rà hồ sơ (`ho_so_launch_v0.md`, `group_report.md`, `phieu_cham.md`), đối chiếu số với slide đáp án, chuẩn bị câu trả lời cho hội đồng Gate 2a.
+- Viết báo cáo cá nhân và cập nhật bằng chứng trong `TEAM.md`.
 
 ### Bằng chứng
 
