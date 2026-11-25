@@ -2,7 +2,7 @@
 
 Một trang. Cột trạng thái chỉ nhận: **Xong, có bằng chứng · Chưa · Giả lập**. Gate 2a chỉ duyệt kế hoạch pilot.
 
-Nhóm: [điền tên nhóm] · Lớp: L3B
+Nhóm: Economics · Lớp: L3B
 
 | Mục | Con số chính | Trạng thái | Người phụ trách |
 | --- | --- | --- | --- |

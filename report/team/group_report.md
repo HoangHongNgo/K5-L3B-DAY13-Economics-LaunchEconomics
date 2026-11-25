@@ -2,7 +2,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: [điền]
+- Tên nhóm: Economics
 - Lớp: L3B
 - Thành viên: xem `TEAM.md`
 
