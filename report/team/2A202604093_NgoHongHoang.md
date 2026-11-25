@@ -4,7 +4,7 @@
 
 - Họ tên: Ngô Hồng Hoàng
 - MSSV: 2A202604093
-- Email: [điền]
+- Email: honghoangngo@gmail.com
 - Vai trong nhóm: Người kiểm số
 - GitHub: HoangHongNgo
 

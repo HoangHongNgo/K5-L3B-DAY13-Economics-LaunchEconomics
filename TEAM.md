@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Minh Triết | 2A202603995 | mtriet674@gmail.com | minhtriet061203 | Người viết code |
-|   2 | Ngô Hồng Hoàng | 2A202604093 | [điền] | HoangHongNgo | Người kiểm số |
+|   2 | Ngô Hồng Hoàng | 2A202604093 | honghoangngo@gmail.com | HoangHongNgo | Người kiểm số |
 |   3 | Hoàng Minh | 2A202604103 | minh03forwork@gmail.com | WorkOfMinh | Người gắn nhãn 1 |
 |   4 | Nguyễn Việt Hoàng | 2A202604104 | [điền] | [điền] | Người gắn nhãn 2 kiêm giữ hồ sơ |
 
