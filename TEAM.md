@@ -73,7 +73,17 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Đóng góp cụ thể
 
-- [Thành viên tự điền]
+- CP3: Phân loại 20 ca lỗi theo 5 loại lỗi của Google PAIR và điền cột "Nhãn người 1" trong bang_loi.md.
+
+- Rà soát quy tắc phân biệt các loại lỗi và bảng khắc phục cho 5 ca, mỗi loại một ca.
+
+- Chuẩn bị đối chiếu kết quả gắn nhãn với người gắn nhãn 2 và tính tỉ lệ đồng thuận.
+
+- CP5 : Đặc tả chỉ số, danh sách event có trace_id và phân tích rủi ro kinh tế trong chi_so.md.
+
+- Theo dõi điều kiện "Xong khi" của các checkpoint.
+
+
 
 ### Bằng chứng
 
