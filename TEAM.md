@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Nguyễn Minh Triết | 2A202603995 | [điền] | [điền] | Người viết code |
+|   1 | Nguyễn Minh Triết | 2A202603995 | mtriet674@gmail.com | minhtriet061203 | Người viết code |
 |   2 | Ngô Hồng Hoàng | 2A202604093 | [điền] | HoangHongNgo | Người kiểm số |
 |   3 | Hoàng Minh | 2A202604103 | [điền] | [điền] | Người gắn nhãn 1 |
 |   4 | Nguyễn Việt Hoàng | 2A202604104 | [điền] | [điền] | Người gắn nhãn 2 kiêm giữ hồ sơ |
@@ -45,11 +45,12 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Đóng góp cụ thể
 
-- [Thành viên tự điền]
+- Viết toàn bộ `src/lab13.py`: ba hàm A1 (ba phép thử ĐẠT 1,20 · 1,25 · 1,25), `mo_hinh` (4.472 đ/việc thành công [simulated], 16,3× hoá đơn), A3, A4, B1–B4, `co_mau` cho D1 (n = 1.251; MDE 6 điểm → n = 859) và ba chỉ số E1.
+- Chạy lại toàn bộ code trên máy cá nhân (venv sạch, Python 3.12.10): chạy hết, số khớp `bang_chi_phi.md`.
 
 ### Bằng chứng
 
-- `report/team/2A202603995_NguyenMinhTriet.md`; commit: [điền sau khi commit]
+- `report/team/2A202603995_NguyenMinhTriet.md`; `src/lab13.py` (gộp và commit qua tài khoản HoangHongNgo ở 6fa2b3d); commit cập nhật báo cáo từ tài khoản minhtriet061203
 
 ## NgoHongHoang-2A202604093
 
